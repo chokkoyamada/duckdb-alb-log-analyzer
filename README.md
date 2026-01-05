@@ -28,7 +28,21 @@ brew install duckdb
 
 ## Installation
 
-Install this skill into Claude Code:
+### Method 1: Plugin Marketplace (Recommended)
+
+Install directly from the Claude Code plugin marketplace:
+
+```bash
+# In Claude Code, run:
+/plugin marketplace add chokkoyamada/duckdb-alb-log-analyzer
+
+# Then install the plugin:
+/plugin install duckdb-alb-log-analyzer
+```
+
+### Method 2: Manual Installation
+
+Install this skill manually into Claude Code:
 
 ```bash
 # Navigate to skills directory

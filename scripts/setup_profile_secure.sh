@@ -43,6 +43,7 @@ fi
 export AWS_PROFILE="$PROFILE_NAME"
 
 # Try using credential_chain with profile
+set +e
 duckdb "$DB_FILE" <<EOF
 INSTALL aws;
 LOAD aws;
@@ -59,6 +60,7 @@ SELECT 'Setup completed with credential_chain' as status;
 EOF
 
 RESULT=$?
+set -e
 
 if [ $RESULT -ne 0 ]; then
     echo ""

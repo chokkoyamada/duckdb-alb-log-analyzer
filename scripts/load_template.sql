@@ -44,7 +44,8 @@ FROM read_csv(
     quote='"',
     escape='"',
     header=false,
-    auto_detect=false
+    auto_detect=false,
+    nullstr='-'
 );
 
 -- Display summary
