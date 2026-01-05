@@ -1,0 +1,62 @@
+# DuckDB database files
+*.duckdb
+*.duckdb.wal
+alb_analysis.duckdb*
+
+# Generated SQL files
+load_logs.sql
+
+# Temporary files
+*.tmp
+*.log
+
+# Downloaded log files
+local-logs/
+*.log.gz
+
+# Output files
+*.csv
+*.parquet
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# AWS credentials (should never be committed)
+.aws/
+credentials
+*.pem
+
+# Environment variables
+.env
+.env.local
+
+# Claude Code local settings
+.claude/
