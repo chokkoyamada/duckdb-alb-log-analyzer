@@ -6,10 +6,12 @@
   "plugins": [
     {
       "name": "duckdb-alb-log-analyzer",
-      "source": ".",
+      "source": "./",
       "description": "Analyze AWS Application Load Balancer (ALB) logs stored in S3 using DuckDB",
       "version": "1.0.0",
-      "author": "chokkoyamada",
+      "author": {
+        "name": "chokkoyamada"
+      },
       "homepage": "https://github.com/chokkoyamada/duckdb-alb-log-analyzer",
       "repository": "https://github.com/chokkoyamada/duckdb-alb-log-analyzer",
       "license": "MIT"
